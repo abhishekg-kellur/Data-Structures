@@ -53,9 +53,9 @@ void main() {
             found=1;
             break;
         }
-        if(found==0) {
+    }
+    if(found==0) {
             printf("Element does not exist\n");
             loc->link=NULL;
-        }
     }
 }
